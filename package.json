@@ -1,0 +1,20 @@
+{
+  "name": "codedao",
+  "version": "1.0.0",
+  "description": "スマートコントラクトを自然言語化するプラットフォームをつくる",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/retocrooman/CodeDAO.git"
+  },
+  "keywords": [],
+  "author": "retocrooman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/retocrooman/CodeDAO/issues"
+  },
+  "homepage": "https://github.com/retocrooman/CodeDAO#readme"
+}
