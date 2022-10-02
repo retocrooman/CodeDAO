@@ -12,7 +12,7 @@ export const getFunctions = async (address: string) => {
   } catch(error) {
     console.log(error);
   }
-  if (functions === []) {
+  if (functions.length === 0) {
     console.error('functions is empty');
     return [];
   }

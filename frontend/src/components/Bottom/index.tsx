@@ -7,13 +7,13 @@ import Typography from '@mui/material/Typography'
 export const Bottom = () => {
   return (
     <Box>
-      <AppBar position="static" sx={{height: "7vh", bgcolor: "#DCDCDC"}}>
+      <AppBar position="static" sx={{height: "7vh"}}>
         <Toolbar>
           <Typography variant="h5" sx={{flexGrow: 10}}>
             CodeDAO
           </Typography>
-          <Typography component="a" href="/" variant="h5" sx={{color:"white",flexGrow:1}}>
-            Home
+          <Typography component="a" href="https://github.com/retocrooman/CodeDAO" variant="h5" sx={{color:"white",flexGrow:1}}>
+            Github
           </Typography>
         </Toolbar>
       </AppBar>

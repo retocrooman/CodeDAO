@@ -21,11 +21,12 @@ export const SearchForm = () => {
         variant="outlined"
         value={address}
         onChange={onChange}
-        sx={{width: "300px"}}
+        size="small"
+        sx={{width: "400px"}}
       />
     </Box>
     <IconButton color="secondary" onClick={onClick}>
-      <SearchIcon sx={{height:"40px",width:"40px",color:"white"}}/>
+      <SearchIcon sx={{height:"30px",width:"30px",color:"white"}}/>
     </IconButton>
     </>
   )

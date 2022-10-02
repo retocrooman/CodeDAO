@@ -6,13 +6,13 @@ import Typography from '@mui/material/Typography'
 import { UseCaseProps } from '../../types';
 import { UseCaseList } from '../UseCaseList';
 
-export const UseCase = ({address, functions}: UseCaseProps) => {
+export const UseCase = ({functions, setSelectCase}: UseCaseProps) => {
   return (
-    <Box sx={{backgroundColor:"#FFF0F5",minWidth:"10vw",maxWidth:"20vw",overflow:"auto" }}>
+    <Box sx={{backgroundColor:"white",width:"15vw"}}>
       <Typography variant="h5">
         ユースケース
       </Typography>
-      <UseCaseList functions={functions}/>
+      <UseCaseList functions={functions} setSelectCase={setSelectCase}/>
     </Box>
   )
 }

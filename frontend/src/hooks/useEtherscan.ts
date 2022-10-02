@@ -18,5 +18,6 @@ export const getEtherscan = async (address: string) => {
     console.error('response is empty');
     return '';
   }
+  console.log(response.data);
   return response.data.result[0];
 }

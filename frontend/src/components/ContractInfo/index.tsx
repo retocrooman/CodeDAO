@@ -5,7 +5,7 @@ import { ContractInfoProps } from '../../types';
 
 export const ContractInfo = ({address, info}: ContractInfoProps) => {
   return (
-    <Box sx={{backgroundColor:"#FAEBD7",height:"8vh"}}>
+    <Box sx={{backgroundColor:"white", height:"8vh"}}>
       <Typography variant="h6">
         コントラクト名: {info.name}
       </Typography>
@@ -14,7 +14,10 @@ export const ContractInfo = ({address, info}: ContractInfoProps) => {
           アドレス: {info.address}
         </Typography>
         <Typography variant="h6" sx={{flexGrow: 1}}>
-          コンパイラー: {info.compiler}
+          ライセンス: {info.license}
+        </Typography>
+        <Typography variant="h6" sx={{flexGrow: 1}}>
+          プロキシ: {(info.proxy === '1')?'Yes':'No'}
         </Typography>
       </Box>
     </Box>

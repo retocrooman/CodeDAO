@@ -1,7 +1,8 @@
 export interface Info {
   address: string,
   name: string,
-  compiler: string,
+  license: string,
+  proxy: string,
 }
 
 export type ContractInfoProps = {
@@ -10,15 +11,16 @@ export type ContractInfoProps = {
 }
 
 export type UseCaseProps = {
-  address: string,
   functions: string[],
+  setSelectCase: (caseName: string) => void,
 }
 
 export type SequenceGraphProps = {
-  address: string
+  code: string,
+  selectCase: string,
+  setSelectCode: (codeName: string) => void,
 }
 
 export type CodeProps = {
-  address: string,
-  code: string,
+  selectCode: string,
 }

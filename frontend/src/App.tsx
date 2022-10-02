@@ -14,7 +14,6 @@ function App() {
         <Route path="/Analytics" element={<Analytics />} />
       </Routes>
     </BrowserRouter>
-    <Bottom/>
     </>
   );
 }
