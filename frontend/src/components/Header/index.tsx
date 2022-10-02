@@ -13,7 +13,7 @@ export const Header = () => {
           <Typography variant="h3" sx={{flexGrow: 1}}>
             CodeDAO
           </Typography>
-          <Typography component="a" href="/" variant="h5" sx={{color:"yellow",flexGrow:1}}>
+          <Typography component="a" href="/CodeDAO" variant="h5" sx={{color:"yellow",flexGrow:1}}>
             Home
           </Typography>
           <Typography component="a" href="https://github.com/retocrooman/CodeDAO" variant="h5" sx={{color:"yellow",flexGrow:20}}>
