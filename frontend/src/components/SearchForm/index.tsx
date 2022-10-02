@@ -10,7 +10,7 @@ export const SearchForm = () => {
     setAddress(value);
   }
   const onClick = () => {
-    window.location.assign('CodeDAO/?address=' + address);
+    window.location.assign('/?address=' + address);
   }
 
   return (
