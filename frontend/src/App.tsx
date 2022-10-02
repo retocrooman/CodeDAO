@@ -9,8 +9,7 @@ function App() {
     <><Header/>
     <BrowserRouter>
       <Routes>
-        <Route path="CodeDAO/" element={<Home />} />
-        <Route path="CodeDAO/Analytics" element={<Analytics />} />
+        <Route path="CodeDAO/" element={<Analytics />} />
       </Routes>
     </BrowserRouter>
     </>
